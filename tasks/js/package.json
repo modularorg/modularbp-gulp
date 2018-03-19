@@ -1,0 +1,21 @@
+{
+  "name": "@modularbp/gulp-js",
+  "version": "1.0.1",
+  "main": "src/js.js",
+  "repository": "https://github.com/modularbp/gulp/tree/master/tasks/js",
+  "author": "Antoine Boulanger <hello@antoineboulanger.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modularbp/gulp/issues"
+  },
+  "homepage": "https://github.com/modularbp/gulp#readme",
+  "dependencies": {
+    "babel-core": "*",
+    "babel-preset-env": "*",
+    "babelify": "*",
+    "browserify": "*",
+    "gulp": "*",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*"
+  }
+}

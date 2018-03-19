@@ -1,0 +1,19 @@
+{
+  "name": "@modularbp/gulp-css",
+  "version": "1.0.1",
+  "main": "src/css.js",
+  "repository": "https://github.com/modularbp/gulp/tree/master/tasks/css",
+  "author": "Antoine Boulanger <hello@antoineboulanger.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modularbp/gulp/issues"
+  },
+  "homepage": "https://github.com/modularbp/gulp#readme",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-postcss": "*",
+    "postcss-cssnext": "*",
+    "postcss-import": "*",
+    "postcss-pxtorem": "*"
+  }
+}

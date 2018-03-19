@@ -1,0 +1,18 @@
+{
+  "name": "@modularbp/gulp",
+  "version": "1.0.0",
+  "main": "src/gulpfile.babel.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modularbp/gulp.git"
+  },
+  "author": "Antoine Boulanger <hello@antoineboulanger.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modularbp/gulp/issues"
+  },
+  "homepage": "https://github.com/modularbp/gulp#readme",
+  "dependencies": {
+    "gulp": "*"
+  }
+}
