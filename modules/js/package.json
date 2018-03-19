@@ -1,14 +1,14 @@
 {
   "name": "@modularbp/gulp-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/js.js",
-  "repository": "https://github.com/modularbp/gulp/tree/master/tasks/js",
+  "repository": "https://github.com/modularbp/gulp/tree/master/modules/js",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/modularbp/gulp/issues"
   },
-  "homepage": "https://github.com/modularbp/gulp/tree/master/tasks/js#readme",
+  "homepage": "https://github.com/modularbp/gulp/tree/master/modules/js#readme",
   "dependencies": {
     "babel-core": "*",
     "babel-preset-env": "*",

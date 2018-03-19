@@ -1,14 +1,14 @@
 {
   "name": "@modularbp/gulp-watch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/watch.js",
-  "repository": "https://github.com/modularbp/gulp/tree/master/tasks/watch",
+  "repository": "https://github.com/modularbp/gulp/tree/master/modules/watch",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/modularbp/gulp/issues"
   },
-  "homepage": "https://github.com/modularbp/gulp/tree/master/tasks/watch#readme",
+  "homepage": "https://github.com/modularbp/gulp/tree/master/modules/watch#readme",
   "dependencies": {
     "gulp": "*"
   }

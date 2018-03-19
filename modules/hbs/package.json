@@ -1,14 +1,14 @@
 {
   "name": "@modularbp/gulp-hbs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/hbs.js",
-  "repository": "https://github.com/modularbp/gulp/tree/master/tasks/hbs",
+  "repository": "https://github.com/modularbp/gulp/tree/master/modules/hbs",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/modularbp/gulp/issues"
   },
-  "homepage": "https://github.com/modularbp/gulp/tree/master/tasks/hbs#readme",
+  "homepage": "https://github.com/modularbp/gulp/tree/master/modules/hbs#readme",
   "dependencies": {
     "gulp": "*",
     "gulp-hb": "*",
