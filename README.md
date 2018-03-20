@@ -1,7 +1,10 @@
-<img src="https://user-images.githubusercontent.com/4596862/37633827-4ed88a28-2bca-11e8-9f5e-f0ce25c30f0e.png" height="140">
-
-# Modular Gulp
-A set of modules for a [gulp](https://github.com/gulpjs/gulp/) build system.
+<p align="center">
+    <a href="https://github.com/modularbp/gulp">
+        <img src="https://user-images.githubusercontent.com/4596862/37633827-4ed88a28-2bca-11e8-9f5e-f0ce25c30f0e.png" height="140">
+    </a>
+</p>
+<h1 align="center">Modular Gulp</h1>
+<p align="center">A set of modules for a <a href="https://github.com/gulpjs/gulp/">gulp</a> build system.</p>
 
 ## Usage
 ```sh
