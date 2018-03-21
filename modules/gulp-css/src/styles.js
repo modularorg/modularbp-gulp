@@ -15,9 +15,9 @@ const plugins = [
     })
 ];
 
-function css() {
+function styles() {
     return gulp
-    .src(paths.styles.src + paths.styles.main)
+    .src(paths.styles.src + paths.styles.main + '.css')
     .pipe(postcss(plugins))
     .on('error', function(err) {
         error(this, err);
@@ -26,4 +26,4 @@ function css() {
     .pipe(server.stream());
 }
 
-export default css;
+export default styles;

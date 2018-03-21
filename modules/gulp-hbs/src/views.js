@@ -4,11 +4,11 @@ import layouts from 'handlebars-layouts';
 import paths from './paths.js';
 import error from './error.js';
 
-function hbs() {
+function views() {
     return gulp
-    .src(paths.views.main)
+    .src(paths.views.src + '*.html')
     .pipe(hb()
-        .partials(paths.views.partials)
+        .partials(paths.views.partials + '*.html')
         .helpers(layouts)
     )
     .on('error', function(err) {
@@ -17,4 +17,4 @@ function hbs() {
     .pipe(gulp.dest(paths.dest));
 }
 
-export default hbs;
+export default views;

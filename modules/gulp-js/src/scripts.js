@@ -6,9 +6,9 @@ import buffer from 'vinyl-buffer';
 import paths from './paths.js';
 import error from './error.js';
 
-function js() {
+function scripts() {
     return browserify({
-        entries: paths.scripts.src + paths.scripts.main,
+        entries: paths.scripts.src + paths.scripts.main + '.js',
         debug: true
     })
     .transform(babelify, { presets: ['env'] })
@@ -16,9 +16,9 @@ function js() {
     .on('error', function(err) {
         error(this, err, 'stack');
     })
-    .pipe(source(paths.scripts.main))
+    .pipe(source(paths.scripts.main + '.js'))
     .pipe(buffer())
     .pipe(gulp.dest(paths.scripts.dest));
 }
 
-export default js;
+export default scripts;

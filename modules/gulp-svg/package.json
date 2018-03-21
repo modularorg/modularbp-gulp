@@ -1,14 +1,14 @@
 {
   "name": "@modularbp/gulp-svg",
   "version": "1.0.2",
-  "main": "src/svg.js",
-  "repository": "https://github.com/modularbp/gulp/tree/master/modules/svg",
+  "main": "src/svgs.js",
+  "repository": "https://github.com/modularbp/gulp/tree/master/modules/gulp-svg",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/modularbp/gulp/issues"
   },
-  "homepage": "https://github.com/modularbp/gulp/tree/master/modules/svg#readme",
+  "homepage": "https://github.com/modularbp/gulp/tree/master/modules/gulp-svg#readme",
   "dependencies": {
     "gulp": "*",
     "gulp-rename": "*",

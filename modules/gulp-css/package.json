@@ -1,14 +1,14 @@
 {
   "name": "@modularbp/gulp-css",
   "version": "1.0.2",
-  "main": "src/css.js",
-  "repository": "https://github.com/modularbp/gulp/tree/master/modules/css",
+  "main": "src/styles.js",
+  "repository": "https://github.com/modularbp/gulp/tree/master/modules/gulp-css",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/modularbp/gulp/issues"
   },
-  "homepage": "https://github.com/modularbp/gulp/tree/master/modules/css#readme",
+  "homepage": "https://github.com/modularbp/gulp/tree/master/modules/gulp-css#readme",
   "dependencies": {
     "gulp": "*",
     "gulp-postcss": "*",

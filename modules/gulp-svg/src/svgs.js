@@ -5,9 +5,9 @@ import svgstore from 'gulp-svgstore';
 import paths from './paths.js';
 import error from './error.js';
 
-function svg() {
+function svgs() {
     return gulp
-    .src(paths.images.sprite + '**/*.svg', { base: paths.images.sprite })
+    .src(paths.svgs.src + '**/*.svg', { base: paths.svgs.src })
     .pipe(rename(function(file) {
         if (file.dirname != '.') {
             const name = file.dirname.split(path.sep);
@@ -19,7 +19,7 @@ function svg() {
     .on('error', function(err) {
         error(this, err);
     })
-    .pipe(gulp.dest(paths.images.dest))
+    .pipe(gulp.dest(paths.svgs.dest))
 }
 
-export default svg;
+export default svgs;
