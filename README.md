@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/modularbp/gulp">
+    <a href="https://github.com/modularbp/modular-gulp">
         <img src="https://user-images.githubusercontent.com/4596862/37633827-4ed88a28-2bca-11e8-9f5e-f0ce25c30f0e.png" height="140">
     </a>
 </p>
@@ -53,16 +53,16 @@ gulp
 | [gulp-watch] | Watch for files changes |
 
 [Modular Boilerplate]: https://github.com/modularbp/modular-boilerplate#readme
-[gulp]: https://github.com/modularbp/gulp
-[gulp-css]: https://github.com/modularbp/gulp/tree/master/modules/gulp-css
-[gulp-error]: https://github.com/modularbp/gulp/tree/master/modules/gulp-error
-[gulp-hbs]: https://github.com/modularbp/gulp/tree/master/modules/gulp-hbs
-[gulp-js]: https://github.com/modularbp/gulp/tree/master/modules/gulp-js
-[gulp-notify]: https://github.com/modularbp/gulp/tree/master/modules/gulp-notify
-[gulp-paths]: https://github.com/modularbp/gulp/tree/master/modules/gulp-paths
-[gulp-serve]: https://github.com/modularbp/gulp/tree/master/modules/gulp-serve
-[gulp-svg]: https://github.com/modularbp/gulp/tree/master/modules/gulp-svg
-[gulp-watch]: https://github.com/modularbp/gulp/tree/master/modules/gulp-watch
+[gulp]: https://github.com/modularbp/modular-gulp
+[gulp-css]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-css
+[gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
+[gulp-hbs]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-hbs
+[gulp-js]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js
+[gulp-notify]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-notify
+[gulp-paths]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-paths
+[gulp-serve]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-serve
+[gulp-svg]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-svg
+[gulp-watch]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-watch
 
 [cssnext]: https://github.com/MoOx/postcss-cssnext
 [PostCSS]: https://github.com/postcss/postcss

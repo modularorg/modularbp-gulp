@@ -2,13 +2,13 @@
   "name": "@modularbp/gulp-serve",
   "version": "1.0.2",
   "main": "src/serve.js",
-  "repository": "https://github.com/modularbp/gulp/tree/master/modules/gulp-serve",
+  "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-serve",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/modularbp/gulp/issues"
+    "url": "https://github.com/modularbp/modular-gulp/issues"
   },
-  "homepage": "https://github.com/modularbp/gulp/tree/master/modules/gulp-serve#readme",
+  "homepage": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-serve#readme",
   "dependencies": {
     "browser-sync": "*"
   }
