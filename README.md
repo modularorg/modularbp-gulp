@@ -66,6 +66,6 @@ gulp
 
 [cssnext]: https://github.com/MoOx/postcss-cssnext
 [PostCSS]: https://github.com/postcss/postcss
-[Handlebars]: https://github.com/wycats/handlebars.js/
+[Handlebars]: https://github.com/wycats/handlebars.js
 [Babel]: https://github.com/babel/babel
 [Browsersync]: https://github.com/Browsersync/browser-sync
