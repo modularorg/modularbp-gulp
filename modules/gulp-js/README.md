@@ -18,8 +18,8 @@ npm install @modularbp/gulp-js --save-dev
 | [babelify] | Babel browserify transform |
 | [browserify] | Require in the browser |
 | [gulp] | The build system |
-| [vinyl-buffer] | Use streams |
-| [vinyl-source-stream] | Use streams |
+| [vinyl-buffer] | Bridge gulp streams |
+| [vinyl-source-stream] | Bridge gulp streams |
 
 [@modularbp/gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
 [@modularbp/gulp-paths]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-paths

@@ -13,6 +13,9 @@
   },
   "homepage": "https://github.com/modularbp/modular-gulp#readme",
   "dependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/register": "*",
     "gulp": "*"
   }
 }
