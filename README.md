@@ -6,14 +6,17 @@
 <h1 align="center">Modular Gulp</h1>
 <p align="center"><a href="https://github.com/gulpjs/gulp/">Gulp</a> modules for <a href="https://github.com/modularbp/modular-boilerplate">Modular Boilerplate</a>'s build system</p>
 
-## Install
-Use a [Modular Boilerplate] scaffolding tool or
+## Installation
 ```sh
 # install gulp
-npm install gulp --global
+npm install gulp -g
 
-# install a module
-npm install @modularbp/gulp --save-dev
+# init a mbp project and choose gulp
+mbp init
+
+# or add it to an existing mbp project
+mbp install gulp
+
 ```
 
 ## Usage
