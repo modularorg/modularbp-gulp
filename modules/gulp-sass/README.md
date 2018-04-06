@@ -1,5 +1,5 @@
 # @modularbp/gulp-sass
-Compile SCSS to CSS with [Sass]
+Compile scss to CSS with [Sass]
 
 [Sass]: https://github.com/sass/libsass
 

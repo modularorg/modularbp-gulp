@@ -33,6 +33,7 @@ gulp
 | Module | Description |
 | ------ | ----------- |
 | [gulp-css] | [cssnext] with [PostCSS] |
+| [gulp-sass] | scss with [Sass] |
 
 ### Scripts
 | Module | Description |
@@ -57,6 +58,7 @@ gulp
 [Modular Boilerplate]: https://github.com/modularbp/modular-boilerplate#readme
 [gulp]: https://github.com/modularbp/modular-gulp
 [gulp-css]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-css
+[gulp-sass]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-sass
 [gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
 [gulp-hbs]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-hbs
 [gulp-js]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js
@@ -68,6 +70,7 @@ gulp
 
 [cssnext]: https://github.com/MoOx/postcss-cssnext
 [PostCSS]: https://github.com/postcss/postcss
+[Sass]: https://github.com/sass/libsass
 [Handlebars]: https://github.com/wycats/handlebars.js
 [Babel]: https://github.com/babel/babel
 [Browsersync]: https://github.com/Browsersync/browser-sync
