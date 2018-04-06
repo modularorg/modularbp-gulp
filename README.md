@@ -9,14 +9,13 @@
 ## Installation
 ```sh
 # install gulp
-npm install gulp -g
+npm install gulp@next -g
 
 # init a mbp project and choose gulp
 mbp init
 
 # or add it to an existing mbp project
 mbp install gulp
-
 ```
 
 ## Usage

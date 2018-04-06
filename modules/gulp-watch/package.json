@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-watch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/watch.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-watch",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",

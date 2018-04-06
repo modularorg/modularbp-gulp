@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/styles.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-css",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",

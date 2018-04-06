@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-notify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/notify.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-notify",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",

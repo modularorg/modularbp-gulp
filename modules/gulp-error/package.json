@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-error",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/error.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
