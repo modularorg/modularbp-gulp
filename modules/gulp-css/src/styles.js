@@ -17,13 +17,13 @@ const plugins = [
 
 function styles() {
     return gulp
-    .src(paths.styles.src + paths.styles.main + '.css')
-    .pipe(postcss(plugins))
-    .on('error', function(err) {
-        error(this, err);
-    })
-    .pipe(gulp.dest(paths.styles.dest))
-    .pipe(server.stream());
+        .src(paths.styles.src + paths.styles.main + '.css')
+        .pipe(postcss(plugins))
+        .on('error', function(err) {
+            error(this, err);
+        })
+        .pipe(gulp.dest(paths.styles.dest))
+        .pipe(server.stream());
 }
 
 export default styles;

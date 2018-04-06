@@ -8,17 +8,17 @@ import error from './error.js';
 
 function scripts() {
     return browserify({
-        entries: paths.scripts.src + paths.scripts.main + '.js',
-        debug: true
-    })
-    .transform(babelify, { presets: ['env'] })
-    .bundle()
-    .on('error', function(err) {
-        error(this, err, 'stack');
-    })
-    .pipe(source(paths.scripts.main + '.js'))
-    .pipe(buffer())
-    .pipe(gulp.dest(paths.scripts.dest));
+            entries: paths.scripts.src + paths.scripts.main + '.js',
+            debug: true
+        })
+        .transform(babelify, { presets: ['env'] })
+        .bundle()
+        .on('error', function(err) {
+            error(this, err, 'stack');
+        })
+        .pipe(source(paths.scripts.main + '.js'))
+        .pipe(buffer())
+        .pipe(gulp.dest(paths.scripts.dest));
 }
 
 export default scripts;
