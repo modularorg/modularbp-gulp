@@ -11,7 +11,7 @@ function scripts() {
             entries: paths.scripts.src + paths.scripts.main + '.js',
             debug: true
         })
-        .transform(babelify, { presets: ['env'] })
+        .transform(babelify)
         .bundle()
         .on('error', function(err) {
             error(this, err, 'stack');
