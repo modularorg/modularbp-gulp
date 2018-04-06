@@ -1,0 +1,16 @@
+{
+  "name": "@modularbp/gulp-sass",
+  "version": "1.0.3",
+  "main": "src/styles.js",
+  "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-sass",
+  "author": "Antoine Boulanger <hello@antoineboulanger.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modularbp/modular-gulp/issues"
+  },
+  "homepage": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-sass#readme",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-sass": "*"
+  }
+}
