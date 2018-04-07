@@ -12,6 +12,7 @@
   "dependencies": {
     "gulp": "*",
     "gulp-hb": "*",
+    "gulp-rename": "*",
     "handlebars-layouts": "*"
   }
 }
