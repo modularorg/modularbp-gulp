@@ -43,7 +43,8 @@ gulp
 ### Views
 | Module | Description |
 | ------ | ----------- |
-| [gulp-hbs] | [Handlebars] static site generator style |
+| [gulp-hbs] | [Handlebars] templates |
+| [gulp-liquid] | [Liquid] templates |
 
 ### Others
 | Module | Description |
@@ -61,6 +62,7 @@ gulp
 [gulp-sass]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-sass
 [gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
 [gulp-hbs]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-hbs
+[gulp-liquid]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-liquid
 [gulp-js]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js
 [gulp-notify]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-notify
 [gulp-paths]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-paths
@@ -72,5 +74,6 @@ gulp
 [PostCSS]: https://github.com/postcss/postcss
 [Sass]: https://github.com/sass/libsass
 [Handlebars]: https://github.com/wycats/handlebars.js
+[Liquid]: https://github.com/Shopify/liquid
 [Babel]: https://github.com/babel/babel
 [Browsersync]: https://github.com/Browsersync/browser-sync

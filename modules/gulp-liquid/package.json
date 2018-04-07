@@ -1,0 +1,17 @@
+{
+  "name": "@modularbp/gulp-liquid",
+  "version": "1.0.3",
+  "main": "src/views.js",
+  "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-liquid",
+  "author": "Antoine Boulanger <hello@antoineboulanger.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modularbp/modular-gulp/issues"
+  },
+  "homepage": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-liquid#readme",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-liquify": "*",
+    "gulp-rename": "*"
+  }
+}
