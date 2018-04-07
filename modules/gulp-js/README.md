@@ -13,8 +13,6 @@ npm install @modularbp/gulp-js --save-dev
 | ------ | ----------- |
 | [@modularbp/gulp-error] | Error handling |
 | [@modularbp/gulp-paths] | The files paths |
-| [babel-core] | Compile to ES5 |
-| [babel-preset-env] | ES2015+ preset |
 | [babelify] | Babel browserify transform |
 | [browserify] | Require in the browser |
 | [gulp] | The build system |
@@ -23,8 +21,6 @@ npm install @modularbp/gulp-js --save-dev
 
 [@modularbp/gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
 [@modularbp/gulp-paths]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-paths
-[babel-core]: https://github.com/babel/babel/tree/master/packages/babel-core
-[babel-preset-env]: https://github.com/babel/babel/tree/master/packages/babel-preset-env
 [babelify]: https://github.com/babel/babelify
 [browserify]: https://github.com/browserify/browserify
 [gulp]: https://github.com/gulpjs/gulp
