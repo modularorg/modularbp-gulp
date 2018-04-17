@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "src/scripts.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",

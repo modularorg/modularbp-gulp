@@ -1,7 +1,7 @@
 import gulp from 'gulp';
 import liquify from 'gulp-liquify';
 import rename from 'gulp-rename';
-import paths from './paths.js';
+import paths from '../mconfig.json';
 import error from './error.js';
 
 const data = {

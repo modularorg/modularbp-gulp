@@ -1,5 +1,5 @@
 import gulp from 'gulp';
-import paths from './paths.js';
+import paths from '../mconfig.json';
 import styles from './styles.js';
 import scripts from './scripts.js';
 import views from './views.js';

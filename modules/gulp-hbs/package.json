@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-hbs",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "main": "src/views.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-hbs",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",

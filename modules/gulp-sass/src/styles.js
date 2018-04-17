@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 import sass from 'gulp-sass';
-import paths from './paths.js';
+import paths from '../mconfig.json';
 import error from './error.js';
 import { server } from './serve.js';
 

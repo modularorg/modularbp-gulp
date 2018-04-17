@@ -3,7 +3,7 @@ import browserify from 'browserify';
 import babelify from 'babelify';
 import source from 'vinyl-source-stream';
 import buffer from 'vinyl-buffer';
-import paths from './paths.js';
+import paths from '../mconfig.json';
 import error from './error.js';
 
 function scripts() {

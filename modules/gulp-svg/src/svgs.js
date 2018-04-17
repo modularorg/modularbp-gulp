@@ -2,7 +2,7 @@ import gulp from 'gulp';
 import path from 'path';
 import rename from 'gulp-rename';
 import svgstore from 'gulp-svgstore';
-import paths from './paths.js';
+import paths from '../mconfig.json';
 import error from './error.js';
 
 function svgs() {

@@ -3,7 +3,7 @@ import postcss from 'gulp-postcss';
 import cssimport from 'postcss-import';
 import cssnext from 'postcss-cssnext';
 import pxtorem from 'postcss-pxtorem';
-import paths from './paths.js';
+import paths from '../mconfig.json';
 import error from './error.js';
 import { server } from './serve.js';
 

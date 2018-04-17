@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-svg",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "main": "src/svgs.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-svg",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",

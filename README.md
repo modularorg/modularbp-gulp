@@ -51,7 +51,6 @@ gulp
 | ------ | ----------- |
 | [gulp-error] | Error handling |
 | [gulp-notify] | Notification handling |
-| [gulp-paths] | Your project files paths |
 | [gulp-serve] | Live reload and sync browsers with [Browsersync] |
 | [gulp-svg] | Generate svg icons sprite |
 | [gulp-watch] | Watch for files changes |
@@ -65,7 +64,6 @@ gulp
 [gulp-liquid]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-liquid
 [gulp-js]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js
 [gulp-notify]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-notify
-[gulp-paths]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-paths
 [gulp-serve]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-serve
 [gulp-svg]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-svg
 [gulp-watch]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-watch

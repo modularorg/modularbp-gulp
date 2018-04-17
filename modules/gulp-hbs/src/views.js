@@ -2,7 +2,7 @@ import gulp from 'gulp';
 import hb from 'gulp-hb';
 import rename from 'gulp-rename';
 import layouts from 'handlebars-layouts';
-import paths from './paths.js';
+import paths from '../mconfig.json';
 import error from './error.js';
 
 const data = {
