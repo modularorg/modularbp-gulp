@@ -49,6 +49,7 @@ gulp
 ### Others
 | Module | Description |
 | ------ | ----------- |
+| [gulp-build] | Minify files |
 | [gulp-error] | Error handling |
 | [gulp-notify] | Notification handling |
 | [gulp-serve] | Live reload and sync browsers with [Browsersync] |
@@ -59,10 +60,11 @@ gulp
 [gulp]: https://github.com/modularbp/modular-gulp
 [gulp-css]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-css
 [gulp-sass]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-sass
-[gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
+[gulp-js]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js
 [gulp-hbs]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-hbs
 [gulp-liquid]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-liquid
-[gulp-js]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js
+[gulp-build]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-build
+[gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
 [gulp-notify]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-notify
 [gulp-serve]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-serve
 [gulp-svg]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-svg
