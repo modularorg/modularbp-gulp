@@ -12,7 +12,6 @@ npm install @modularbp/gulp-js --save-dev
 | Module | Description |
 | ------ | ----------- |
 | [@modularbp/gulp-error] | Error handling |
-| [@modularbp/gulp-paths] | The files paths |
 | [babelify] | Babel browserify transform |
 | [browserify] | Require in the browser |
 | [gulp] | The build system |
@@ -20,7 +19,6 @@ npm install @modularbp/gulp-js --save-dev
 | [vinyl-source-stream] | Bridge gulp streams |
 
 [@modularbp/gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
-[@modularbp/gulp-paths]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-paths
 [babelify]: https://github.com/babel/babelify
 [browserify]: https://github.com/browserify/browserify
 [gulp]: https://github.com/gulpjs/gulp

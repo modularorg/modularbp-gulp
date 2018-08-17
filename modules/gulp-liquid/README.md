@@ -12,13 +12,11 @@ npm install @modularbp/gulp-liquid --save-dev
 | Module | Description |
 | ------ | ----------- |
 | [@modularbp/gulp-error] | Error handling |
-| [@modularbp/gulp-paths] | The files paths |
 | [gulp] | The build system |
 | [gulp-liquify] | Compile to HTML |
 | [gulp-rename] | Rename output files |
 
 [@modularbp/gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
-[@modularbp/gulp-paths]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-paths
 [gulp]: https://github.com/gulpjs/gulp
 [gulp-liquify]: https://github.com/fchasen/gulp-liquify
 [gulp-rename]: https://github.com/hparra/gulp-rename

@@ -13,7 +13,6 @@ npm install @modularbp/gulp-css --save-dev
 | Module | Description |
 | ------ | ----------- |
 | [@modularbp/gulp-error] | Error handling |
-| [@modularbp/gulp-paths] | The files paths |
 | [@modularbp/gulp-serve] | Auto inject styles in your browsers |
 | [gulp] | The build system |
 | [gulp-postcss] | Transform to CSS |
@@ -22,7 +21,6 @@ npm install @modularbp/gulp-css --save-dev
 | [postcss-pxtorem] | Convert pixel units to rem |
 
 [@modularbp/gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
-[@modularbp/gulp-paths]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-paths
 [@modularbp/gulp-serve]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-serve
 [gulp]: https://github.com/gulpjs/gulp
 [gulp-postcss]: https://github.com/postcss/gulp-postcss
