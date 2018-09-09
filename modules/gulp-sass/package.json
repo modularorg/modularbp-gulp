@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-sass",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "src/styles.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-sass",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
@@ -11,6 +11,7 @@
   "homepage": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-sass#readme",
   "dependencies": {
     "gulp": "*",
+    "gulp-autoprefixer": "*",
     "gulp-sass": "*"
   }
 }
