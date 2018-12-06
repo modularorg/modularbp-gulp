@@ -1,17 +1,11 @@
 {
   "name": "@modularbp/gulp",
-  "version": "1.0.3",
-  "main": "src/gulpfile.babel.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/modularbp/modular-gulp.git"
-  },
-  "author": "Antoine Boulanger <hello@antoineboulanger.com>",
+  "version": "1.0.4",
+  "description": "gulp modules for modularBP.",
+  "repository": "modularorg/modularbp-gulp",
+  "author": "Antoine Boulanger <hello@antoineboulanger.com> (https://antoineboulanger.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/modularbp/modular-gulp/issues"
-  },
-  "homepage": "https://github.com/modularbp/modular-gulp#readme",
+  "main": "src/gulpfile.babel.js",
   "dependencies": {
     "@babel/core": "*",
     "@babel/preset-env": "*",

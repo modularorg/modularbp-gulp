@@ -4,7 +4,7 @@
     </a>
 </p>
 <h1 align="center">modularBP Gulp</h1>
-<p align="center"><a href="https://github.com/gulpjs/gulp/">gulp</a> modules for <a href="https://github.com/modularorg/modularbp">modularBP</a> build system</p>
+<p align="center"><a href="https://github.com/gulpjs/gulp/">gulp</a> modules for <a href="https://github.com/modularorg/modularbp">modularBP</a>.</p>
 
 ## Installation
 ```sh
