@@ -1,10 +1,10 @@
 <p align="center">
-    <a href="https://github.com/modularbp/modular-gulp">
+    <a href="https://github.com/modularorg/modularbp-gulp">
         <img src="https://user-images.githubusercontent.com/4596862/37633827-4ed88a28-2bca-11e8-9f5e-f0ce25c30f0e.png" height="140">
     </a>
 </p>
-<h1 align="center">Modular Gulp</h1>
-<p align="center"><a href="https://github.com/gulpjs/gulp/">Gulp</a> modules for <a href="https://github.com/modularbp/modular-boilerplate">Modular Boilerplate</a>'s build system</p>
+<h1 align="center">modularBP Gulp</h1>
+<p align="center"><a href="https://github.com/gulpjs/gulp/">gulp</a> modules for <a href="https://github.com/modularorg/modularbp">modularBP</a> build system</p>
 
 ## Installation
 ```sh
@@ -56,19 +56,19 @@ gulp
 | [gulp-svg] | Generate svg icons sprite |
 | [gulp-watch] | Watch for files changes |
 
-[Modular Boilerplate]: https://github.com/modularbp/modular-boilerplate#readme
-[gulp]: https://github.com/modularbp/modular-gulp
-[gulp-css]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-css
-[gulp-sass]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-sass
-[gulp-js]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js
-[gulp-hbs]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-hbs
-[gulp-liquid]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-liquid
-[gulp-build]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-build
-[gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
-[gulp-notify]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-notify
-[gulp-serve]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-serve
-[gulp-svg]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-svg
-[gulp-watch]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-watch
+[modularBP]: https://github.com/modularorg/modularbp#readme
+[gulp]: https://github.com/modularorg/modularbp-gulp
+[gulp-css]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-css
+[gulp-sass]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-sass
+[gulp-js]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-js
+[gulp-hbs]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-hbs
+[gulp-liquid]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-liquid
+[gulp-build]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-build
+[gulp-error]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-error
+[gulp-notify]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-notify
+[gulp-serve]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-serve
+[gulp-svg]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-svg
+[gulp-watch]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-watch
 
 [cssnext]: https://github.com/MoOx/postcss-cssnext
 [PostCSS]: https://github.com/postcss/postcss
