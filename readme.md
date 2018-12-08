@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/modularorg/modularbp-gulp">
-        <img src="https://user-images.githubusercontent.com/4596862/37633827-4ed88a28-2bca-11e8-9f5e-f0ce25c30f0e.png" height="140">
+        <img src="https://user-images.githubusercontent.com/4596862/37635200-aa3271b2-2bd0-11e8-8a65-9cafa0addd67.png" height="140">
     </a>
 </p>
 <h1 align="center">modularBP Gulp</h1>
@@ -11,11 +11,11 @@
 # install gulp
 npm install gulp@next -g
 
+# install mbp
+npm install mbp -g
+
 # init a mbp project and choose gulp
 mbp init
-
-# or add it to an existing mbp project
-mbp install gulp
 ```
 
 ## Usage
