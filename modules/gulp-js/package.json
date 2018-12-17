@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "src/scripts.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
@@ -10,7 +10,7 @@
   },
   "homepage": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js#readme",
   "dependencies": {
-    "babelify": "github:ylemkimon/babelify",
+    "babelify": "*",
     "browserify": "*",
     "gulp": "*",
     "vinyl-buffer": "*",
