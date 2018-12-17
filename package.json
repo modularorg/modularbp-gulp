@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "gulp modules for modularBP.",
   "repository": "modularorg/modularbp-gulp",
   "author": "Antoine Boulanger <hello@antoineboulanger.com> (https://antoineboulanger.com)",
