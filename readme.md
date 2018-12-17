@@ -3,13 +3,13 @@
         <img src="https://user-images.githubusercontent.com/4596862/37635200-aa3271b2-2bd0-11e8-8a65-9cafa0addd67.png" height="140">
     </a>
 </p>
-<h1 align="center">modularBP Gulp</h1>
+<h1 align="center">modularBP gulp</h1>
 <p align="center"><a href="https://github.com/gulpjs/gulp/">gulp</a> modules for <a href="https://github.com/modularorg/modularbp">modularBP</a>.</p>
 
 ## Installation
 ```sh
 # install gulp
-npm install gulp@next -g
+npm install gulp -g
 
 # install mbp
 npm install mbp -g
