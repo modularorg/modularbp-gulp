@@ -1,4 +1,5 @@
 import gulp from 'gulp';
+import frontMatter from 'gulp-front-matter';
 import hb from 'gulp-hb';
 import rename from 'gulp-rename';
 import layouts from 'handlebars-layouts';
@@ -12,6 +13,9 @@ const data = {
 function views() {
     return gulp
         .src(paths.views.src + '*.hbs')
+        .pipe(frontMatter({
+            property: 'data.front'
+        }))
         .pipe(hb()
             .partials(paths.views.partials + '*.hbs')
             .helpers(layouts)

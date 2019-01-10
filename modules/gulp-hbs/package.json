@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-hbs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "src/views.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-hbs",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
@@ -11,6 +11,7 @@
   "homepage": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-hbs#readme",
   "dependencies": {
     "gulp": "*",
+    "gulp-front-matter": "*",
     "gulp-hb": "*",
     "gulp-rename": "*",
     "handlebars-layouts": "*"
