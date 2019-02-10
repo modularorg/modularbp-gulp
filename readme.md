@@ -38,7 +38,7 @@ gulp
 ### Scripts
 | Module | Description |
 | ------ | ----------- |
-| [gulp-js] | ES6 modules with [Babel] |
+| [gulp-js] | ES module bundler with [Rollup] and [Babel] |
 
 ### Views
 | Module | Description |
@@ -75,5 +75,6 @@ gulp
 [Sass]: https://github.com/sass/libsass
 [Handlebars]: https://github.com/wycats/handlebars.js
 [Liquid]: https://github.com/Shopify/liquid
+[Rollup]: https://github.com/rollup/rollup
 [Babel]: https://github.com/babel/babel
 [Browsersync]: https://github.com/Browsersync/browser-sync

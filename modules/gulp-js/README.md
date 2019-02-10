@@ -1,6 +1,7 @@
 # @modularbp/gulp-js
-Compile ES6 modules to ES5 with [Babel]
+Bundle ES6 modules with [Rollup] and compile to ES5 with [Babel]
 
+[Rollup]: https://github.com/rollup/rollup
 [Babel]: https://github.com/babel/babel
 
 ## Install
@@ -11,16 +12,12 @@ npm install @modularbp/gulp-js --save-dev
 ## Dependencies
 | Module | Description |
 | ------ | ----------- |
-| [@modularbp/gulp-error] | Error handling |
-| [babelify] | Babel browserify transform |
-| [browserify] | Require in the browser |
-| [gulp] | The build system |
-| [vinyl-buffer] | Bridge gulp streams |
-| [vinyl-source-stream] | Bridge gulp streams |
+| [rollup] | ES module bundler |
+| [rollup-plugin-babel] | Compile to ES5 |
+| [rollup-plugin-commonjs] | Convert CommonJS modules to ES |
+| [rollup-plugin-node-resolve] | Import NPM packages |
 
-[@modularbp/gulp-error]: https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-error
-[babelify]: https://github.com/babel/babelify
-[browserify]: https://github.com/browserify/browserify
-[gulp]: https://github.com/gulpjs/gulp
-[vinyl-buffer]: https://github.com/hughsk/vinyl-buffer
-[vinyl-source-stream]: https://github.com/hughsk/vinyl-source-stream
+[rollup]: https://github.com/rollup/rollup
+[rollup-plugin-babel]: https://github.com/rollup/rollup-plugin-babel
+[rollup-plugin-commonjs]: https://github.com/rollup/rollup-plugin-commonjs
+[rollup-plugin-node-resolve]: https://github.com/rollup/rollup-plugin-node-resolve

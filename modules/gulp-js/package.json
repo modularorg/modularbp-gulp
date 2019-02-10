@@ -1,6 +1,6 @@
 {
   "name": "@modularbp/gulp-js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "src/scripts.js",
   "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js",
   "author": "Antoine Boulanger <hello@antoineboulanger.com>",
@@ -10,10 +10,9 @@
   },
   "homepage": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-js#readme",
   "dependencies": {
-    "babelify": "*",
-    "browserify": "*",
-    "gulp": "*",
-    "vinyl-buffer": "*",
-    "vinyl-source-stream": "*"
+    "rollup": "*",
+    "rollup-plugin-babel": "*",
+    "rollup-plugin-commonjs": "*",
+    "rollup-plugin-node-resolve": "*"
   }
 }

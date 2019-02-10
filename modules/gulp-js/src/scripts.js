@@ -1,24 +1,28 @@
-import gulp from 'gulp';
-import browserify from 'browserify';
-import babelify from 'babelify';
-import source from 'vinyl-source-stream';
-import buffer from 'vinyl-buffer';
+import { rollup } from 'rollup';
+import resolve from 'rollup-plugin-node-resolve';
+import babel from 'rollup-plugin-babel';
+import common from 'rollup-plugin-commonjs';
 import paths from '../mconfig.json';
-import error from './error.js';
 
 function scripts() {
-    return browserify({
-            entries: paths.scripts.src + paths.scripts.main + '.js',
-            debug: true
-        })
-        .transform(babelify)
-        .bundle()
-        .on('error', function(err) {
-            error(this, err, 'stack');
-        })
-        .pipe(source(paths.scripts.main + '.js'))
-        .pipe(buffer())
-        .pipe(gulp.dest(paths.scripts.dest));
+    return rollup({
+            input: paths.scripts.src + paths.scripts.main + '.js',
+            plugins: [
+                resolve(),
+                babel({
+                    exclude: 'node_modules/**'
+                }),
+                common({
+                    include: 'node_modules/**'
+                }),
+            ]
+        }).then(bundle => {
+            return bundle.write({
+                file: paths.scripts.dest + paths.scripts.main + '.js',
+                format: 'iife',
+                sourcemap: true
+            });
+        });
 }
 
 export default scripts;
