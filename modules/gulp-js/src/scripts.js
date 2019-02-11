@@ -19,6 +19,7 @@ function scripts() {
         }).then(bundle => {
             return bundle.write({
                 file: paths.scripts.dest + paths.scripts.main + '.js',
+                name: paths.scripts.main,
                 format: 'iife',
                 sourcemap: true
             });
