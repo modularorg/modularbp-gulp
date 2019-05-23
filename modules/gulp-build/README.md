@@ -14,11 +14,12 @@ npm install @modularbp/gulp-build --save-dev
 | Module | Description |
 | ------ | ----------- |
 | [gulp] | The build system |
-| [gulp-cssnano] | Minify CSS |
+| [cssnano] | Minify CSS |
 | [gulp-htmlmin] | Minify HTML |
+| [gulp-postcss] | Transform CSS |
 | [gulp-uglify] | Minify JS |
 
 [gulp]: https://github.com/gulpjs/gulp
-[gulp-cssnano]: https://github.com/ben-eb/gulp-cssnano
 [gulp-htmlmin]: https://github.com/jonschlinkert/gulp-htmlmin
+[gulp-postcss]: https://github.com/postcss/gulp-postcss
 [gulp-uglify]: https://github.com/terinjokes/gulp-uglify
