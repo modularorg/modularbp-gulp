@@ -10,9 +10,10 @@
   },
   "homepage": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-build#readme",
   "dependencies": {
+    "cssnano": "*",
     "gulp": "*",
-    "gulp-cssnano": "*",
     "gulp-htmlmin": "*",
+    "gulp-postcss": "*",
     "gulp-uglify": "*"
   }
 }
