@@ -14,6 +14,6 @@
     "gulp": "*",
     "gulp-htmlmin": "*",
     "gulp-postcss": "*",
-    "gulp-uglify": "*"
+    "gulp-terser-js": "*"
   }
 }

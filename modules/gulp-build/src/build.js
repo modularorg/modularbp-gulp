@@ -1,7 +1,7 @@
 import gulp from 'gulp';
 import postcss from 'gulp-postcss';
 import cssnano from 'cssnano';
-import uglify from 'gulp-uglify';
+import terser from 'gulp-terser-js';
 import htmlmin from 'gulp-htmlmin';
 import paths from '../mconfig.json';
 
@@ -19,7 +19,11 @@ function buildStyles() {
 function buildScripts() {
     return gulp
         .src(paths.scripts.dest + '*.js')
-        .pipe(uglify())
+        .pipe(terser({
+            output: {
+                comments: false
+            }
+        }))
         .pipe(gulp.dest(paths.scripts.dest));
 }
 
