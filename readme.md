@@ -46,6 +46,7 @@ gulp
 | ------ | ----------- |
 | [gulp-hbs] | [Handlebars] templates |
 | [gulp-liquid] | [Liquid] templates |
+| [gulp-swig] | [Swig] templates |
 
 ### Others
 | Module | Description |
@@ -65,6 +66,7 @@ gulp
 [gulp-js]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-js
 [gulp-hbs]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-hbs
 [gulp-liquid]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-liquid
+[gulp-swig]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-swig
 [gulp-build]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-build
 [gulp-error]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-error
 [gulp-notify]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-notify
@@ -78,6 +80,7 @@ gulp
 [Less]: https://github.com/less/less.js
 [Handlebars]: https://github.com/wycats/handlebars.js
 [Liquid]: https://github.com/Shopify/liquid
+[Swig]: https://github.com/node-swig/swig-templates
 [Rollup]: https://github.com/rollup/rollup
 [Babel]: https://github.com/babel/babel
 [Browsersync]: https://github.com/Browsersync/browser-sync

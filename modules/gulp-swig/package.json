@@ -1,0 +1,19 @@
+{
+  "name": "@modularbp/gulp-swig",
+  "version": "1.0.0",
+  "main": "src/views.js",
+  "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-swig",
+  "author": "Antoine Boulanger <hello@antoineboulanger.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modularbp/modular-gulp/issues"
+  },
+  "homepage": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-swig#readme",
+  "dependencies": {
+    "fs": "*",
+    "gulp": "*",
+    "gulp-data": "*",
+    "gulp-swig": "*",
+    "js-yaml": "*"
+  }
+}
