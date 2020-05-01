@@ -30,7 +30,7 @@ function buildScripts() {
 function buildViews() {
     return gulp
         .src(paths.dest + '*.html')
-        .pipe(htmlmin('collapseWhitespace: true'))
+        .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest(paths.dest));
 }
 
