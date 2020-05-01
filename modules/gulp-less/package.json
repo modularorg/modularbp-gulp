@@ -1,0 +1,17 @@
+{
+  "name": "@modularbp/gulp-less",
+  "version": "1.0.0",
+  "main": "src/styles.js",
+  "repository": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-less",
+  "author": "Antoine Boulanger <hello@antoineboulanger.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modularbp/modular-gulp/issues"
+  },
+  "homepage": "https://github.com/modularbp/modular-gulp/tree/master/modules/gulp-less#readme",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-less": "*"
+  }
+}

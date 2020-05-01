@@ -34,6 +34,7 @@ gulp
 | ------ | ----------- |
 | [gulp-css] | [cssnext] with [PostCSS] |
 | [gulp-sass] | scss with [Sass] |
+| [gulp-less] | less with [Less] |
 
 ### Scripts
 | Module | Description |
@@ -60,6 +61,7 @@ gulp
 [gulp]: https://github.com/modularorg/modularbp-gulp
 [gulp-css]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-css
 [gulp-sass]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-sass
+[gulp-less]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-less
 [gulp-js]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-js
 [gulp-hbs]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-hbs
 [gulp-liquid]: https://github.com/modularorg/modularbp-gulp/tree/master/modules/gulp-liquid
@@ -73,6 +75,7 @@ gulp
 [cssnext]: https://github.com/MoOx/postcss-cssnext
 [PostCSS]: https://github.com/postcss/postcss
 [Sass]: https://github.com/sass/libsass
+[Less]: https://github.com/less/less.js
 [Handlebars]: https://github.com/wycats/handlebars.js
 [Liquid]: https://github.com/Shopify/liquid
 [Rollup]: https://github.com/rollup/rollup
